@@ -1,0 +1,31 @@
+.centerBW(){
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.button(@color:black,@width:50px,@height:20px,@font-size:1.2rem){
+    text-decoration:none;
+    border-radius:10px;
+    margin:1%;
+    padding:.5%;
+    color:@color;
+    width:@width;
+    height:@height;
+    font-size:@font-size;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:@btn-bg-color;
+    color:white;
+    font-size:@font-size;
+    transition:all .5s ease-in, color 1s ease-in;        
+    &:hover{
+            background-color:lighten(hsl(@btn-bg-color), 50%);
+            color:@font-color;
+                @media @mobile{
+                color:white;
+                background-color:@btn-bg-color;
+                }
+    }
+      
+}

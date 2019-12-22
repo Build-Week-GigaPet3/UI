@@ -1,0 +1,56 @@
+body{
+background-color:@bg-color;
+}
+.container{
+    .centerBW();
+    height:100vh;
+}
+.welcome{
+    .centerBW();
+    flex-direction:column;
+    border:1px solid @background;
+    background-color:@background;
+    max-width:70vw;
+    margin:auto;
+    padding:2%;
+    border-radius:15px;
+}
+.aboutUs{
+    border:5px solid red;
+    .centerBW();
+    flex-direction:column;
+    border:1px solid @background;
+    background-color:@background;
+    max-width:70vw;
+    padding:0;
+    border-radius:15px;
+}
+.big-container{
+    padding:5em;
+    margin-top:-5vh;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-content:space-between;
+    .box{
+        border-radius:10px;
+        flex-direction:column;
+        text-align:center;
+        width:30vw;
+        flex-wrap:wrap;
+        background-color:@background;
+        margin:1em;
+        transition:all .5s ease;
+        &:hover
+            {
+            transform:scale(1.2);
+            background-color:@bg-color;
+            color:@background;
+            }
+            .AlexanderC, .EmilyC, .JonathanL, .JustinA, .MadelineM, .RobertG, .ThomasS, .JoscelynO, .KellyM, .JohnW, .JustinT{
+                max-width:10vw;
+                border-radius:10px;
+            }
+    }
+}
+
