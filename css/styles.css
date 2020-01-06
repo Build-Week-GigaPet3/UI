@@ -386,6 +386,14 @@ body {
   max-width: 10vw;
   border-radius: 10px;
 }
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
 .ripple {
   position: relative;
   overflow: hidden;
