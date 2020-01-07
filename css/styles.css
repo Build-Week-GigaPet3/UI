@@ -239,7 +239,7 @@ table {
   background-color: hsl(225, 26.08695652%, 68.03921569%);
   color: #353535;
 }
-@media (max-width:500px) {
+@media (max-width:729px) {
   .menu-wrap .menu div div ul li a:hover {
     color: white;
     background-color: #22283A;
@@ -316,6 +316,9 @@ table {
   height: 2px;
   background-color: inherit;
 }
+footer {
+  font-size: 1rem;
+}
 body {
   background-color: #6C46A2;
 }
@@ -324,6 +327,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+@media (max-width:729px) {
+  .container .welcome h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width:729px) {
+  .container .welcome p {
+    font-size: 1rem;
+  }
 }
 .welcome {
   display: flex;
@@ -337,6 +350,22 @@ body {
   padding: 2%;
   border-radius: 15px;
 }
+.welcome h1 {
+  text-align: center;
+}
+@media (max-width:1138px) {
+  .welcome h1 {
+    font-size: 4.8rem;
+  }
+}
+@media (max-width:960px) {
+  .welcome h1 {
+    font-size: 2rem;
+  }
+  .welcome p {
+    font-size: 1.4rem;
+  }
+}
 .aboutUs {
   border: 5px solid red;
   display: flex;
@@ -349,6 +378,34 @@ body {
   padding: 0;
   border-radius: 15px;
 }
+.aboutUs h1 {
+  text-align: center;
+}
+@media (max-width:1138px) {
+  .aboutUs h1 {
+    font-size: 4.8rem;
+  }
+}
+@media (max-width:960px) {
+  .aboutUs {
+    width: 75vw;
+    height: 20%;
+  }
+  .aboutUs h1 {
+    font-size: 2rem;
+  }
+  .aboutUs p {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width:729px) {
+  .aboutUs h1 {
+    font-size: 2.4rem;
+  }
+  .aboutUs p {
+    font-size: 1.4rem;
+  }
+}
 .big-container {
   padding: 5em;
   margin-top: -5vh;
@@ -356,6 +413,15 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-content: space-between;
+}
+@media (max-width:729px) {
+  .big-container {
+    flex-direction: column;
+    flex-wrap: no-wrap;
+  }
+  .big-container h6 {
+    font-size: 1.6rem;
+  }
 }
 .big-container .box {
   border-radius: 10px;
@@ -366,6 +432,23 @@ body {
   background-color: #fafafa;
   margin: 1em;
   transition: all 0.5s ease;
+}
+@media (max-width:729px) {
+  .big-container .box {
+    width: 75vw;
+    height: 50vw;
+  }
+}
+@media (max-width:960px) {
+  .big-container .box h6,
+  .big-container .box p {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width:729px) {
+  .big-container .box {
+    margin: 1.5em;
+  }
 }
 .big-container .box:hover {
   transform: scale(1.2);
@@ -386,6 +469,22 @@ body {
 .big-container .box .JustinT {
   max-width: 10vw;
   border-radius: 10px;
+}
+@media (max-width:729px) {
+  .big-container .box .AlexanderC,
+  .big-container .box .EmilyC,
+  .big-container .box .JonathanL,
+  .big-container .box .JustinA,
+  .big-container .box .MadelineM,
+  .big-container .box .RobertG,
+  .big-container .box .ThomasS,
+  .big-container .box .SunilK,
+  .big-container .box .JoscelynO,
+  .big-container .box .KellyM,
+  .big-container .box .JohnW,
+  .big-container .box .JustinT {
+    max-width: 30vw;
+  }
 }
 footer {
   display: flex;
@@ -481,7 +580,7 @@ footer a {
   background-color: hsl(225, 26.08695652%, 68.03921569%);
   color: #353535;
 }
-@media (max-width:500px) {
+@media (max-width:729px) {
   .menu-wrap-au .menu div div ul li a:hover {
     color: white;
     background-color: #22283A;
