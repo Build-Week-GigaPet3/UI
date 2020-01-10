@@ -455,6 +455,13 @@ body {
   background-color: #6C46A2;
   color: #fafafa;
 }
+@media (max-width:729px) {
+  .big-container .box:hover {
+    transform: scale(1);
+    background-color: #fafafa;
+    color: #353535;
+  }
+}
 .big-container .box .AlexanderC,
 .big-container .box .EmilyC,
 .big-container .box .JonathanL,
